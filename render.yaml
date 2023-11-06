@@ -1,0 +1,7 @@
+services:
+- type: web
+  name: website-downloader
+  env: node
+  buildCommand: npm install
+  startCommand: npm start
+  # Replace 'npm start' with the command to run your Node.js application.
